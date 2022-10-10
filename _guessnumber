@@ -1,0 +1,12 @@
+let a = Math.floor(Math.random() * 100);
+let b = prompt("Enter the number")
+if (a == b){
+  console.log("You guessed the correct number")
+}
+else if (a > b){
+  console.log("Your guess was lower")
+}
+else if (a < b){
+  console.log("Your guess was higher")
+}
+console.log("The right number is " + a)
